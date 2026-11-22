@@ -1,0 +1,2 @@
+"""ConsentGate demonstration package."""
+
