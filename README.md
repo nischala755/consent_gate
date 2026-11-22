@@ -102,6 +102,8 @@ The evaluation API returns a separate, fixed synthetic scenario run. It checks l
 
 The repository includes [`render.yaml`](render.yaml), which defines a Python web service, `/health` check, generated task-signing secret, and secret prompt for `GROQ_API_KEY`. [Render documents Blueprint configuration](https://render.com/docs/blueprint-spec) and [FastAPI deployment](https://render.com/docs/deploy-fastapi).
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/nischala755/consent_gate)
+
 1. Push this repository to GitHub.
 2. In Render, choose **New → Blueprint**, connect this repository, and select `render.yaml`.
 3. Enter `GROQ_API_KEY` only in Render's secret prompt. If you do not want live model calls, create a regular Web Service instead and omit this variable; offline mode will still work. Render's Blueprint may prompt for a `sync: false` value on initial creation.
