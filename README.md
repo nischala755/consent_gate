@@ -127,4 +127,3 @@ The free Render service may sleep and its memory state disappears on restart. Us
 ## Pilot path
 
 For a real pilot, select one enterprise support workflow and obtain a controlled API connector and review from its security, privacy, and legal teams. Replace public demo controls with authenticated customer and operator flows; persist consent versions and decision records; test against a real tool-level gateway configuration; measure unauthorized-field exposure, benign task completion, false denial, and latency. Do not expand to other purposes until the first workflow works reliably.
-

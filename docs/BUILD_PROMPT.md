@@ -49,4 +49,3 @@ Prior art to acknowledge: Permit MCP Gateway has consent, authorization, and aud
 ## Finish criteria
 
 The app starts from a clean checkout, its tests pass, the two demo moments work in the browser, the offline path works without credentials, the Groq path uses only synthetic data, the Render blueprint is valid, and the README contains exact reproduction commands. Report any unverified deployment or external integration honestly. Do not claim success without running the relevant checks.
-

@@ -199,4 +199,3 @@ def evaluate():
     local.revoke('tenant-a', 'cust-1')
     check('mid-run revocation', 'deny', lambda: local.access(token, 'get_order_status', 'order-101'))
     return {'passed': sum(c['passed'] for c in cases), 'failed': sum(not c['passed'] for c in cases), 'cases': cases, 'synthetic': True}
-

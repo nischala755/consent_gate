@@ -117,4 +117,3 @@ class Gate:
         """Deliberately broad comparison configuration, not a competitor model."""
         record = DATA[order]
         return {key: value for key, value in record.items() if key not in ('tenant', 'customer')}
-
